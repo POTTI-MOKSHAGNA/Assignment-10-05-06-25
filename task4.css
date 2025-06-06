@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8a2be2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.container2 {
+    margin-bottom: 50px;
+}
+
+.cInput {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cInput input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.cInput button {
+    padding: 10px 20px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container3 {
+    display: flex;
+    gap: 30px;
+}
+
+.cYear,
+.cMonth,
+.cDay {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 120px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cYear p,
+.cMonth p,
+.cDay p {
+    font-size: 30px;
+    font-weight: bold;
+}
